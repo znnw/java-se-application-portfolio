@@ -1,0 +1,64 @@
+name: Bug report
+description: Report a reproducible problem in an application or lab.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please provide a minimal reproduction.
+
+  - type: input
+    id: module
+    attributes:
+      label: Module
+      description: Which application or lab is affected?
+      placeholder: e.g. LAN Chat System
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include commands, entry classes, and relevant input.
+      placeholder: |
+        1. Start server.Server
+        2. Start ui.App twice
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the full exception or terminal output when available.
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: JDK, OS, IntelliJ IDEA version
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: I removed credentials and private data from logs.
+          required: true

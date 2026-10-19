@@ -1,0 +1,39 @@
+name: Feature request
+description: Propose a focused improvement to an application or lab.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: input
+    id: module
+    attributes:
+      label: Module
+      placeholder: e.g. Stone Maze
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What concrete limitation should this change address?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification plan
+      description: How should the change be tested?

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day09-collection/src/collection1/collection1.iml" filepath="$PROJECT_DIR$/day09-collection/src/collection1/collection1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day09-collection/day09-collection.iml" filepath="$PROJECT_DIR$/day09-collection/day09-collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day10-collection-map-stream/day10-collection-map-stream.iml" filepath="$PROJECT_DIR$/day10-collection-map-stream/day10-collection-map-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day11-Stream/day11-Stream.iml" filepath="$PROJECT_DIR$/day11-Stream/day11-Stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day12-file-io/day12-file-io.iml" filepath="$PROJECT_DIR$/day12-file-io/day12-file-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day13-thread/day13-thread.iml" filepath="$PROJECT_DIR$/day13-thread/day13-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day14-ExcutorService/day14-ExecutorService.iml" filepath="$PROJECT_DIR$/day14-ExcutorService/day14-ExecutorService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day15-net/day15-net.iml" filepath="$PROJECT_DIR$/day15-net/day15-net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16-GaoJi/day16-GaoJi.iml" filepath="$PROJECT_DIR$/day16-GaoJi/day16-GaoJi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itheima-chat-system/itheima-chat-system.iml" filepath="$PROJECT_DIR$/itheima-chat-system/itheima-chat-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ithiema-chat-server/ithiema-chat-server.iml" filepath="$PROJECT_DIR$/ithiema-chat-server/ithiema-chat-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaseprojectaimax.iml" filepath="$PROJECT_DIR$/javaseprojectaimax.iml" />
+    </modules>
+  </component>
+</project>

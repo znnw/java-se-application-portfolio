@@ -1,0 +1,45 @@
+# Build output
+**/out/
+**/target/
+**/build/
+**/.gradle/
+**/bin/
+*.class
+*.jar.tmp
+
+# IDE state
+/.idea/
+**/.idea/workspace.xml
+**/.idea/shelf/
+**/.idea/tasks.xml
+**/.idea/usage.statistics.xml
+**/.idea/dictionaries/
+*.iws
+.vscode/
+*.code-workspace
+
+# Local runtime data
+/java-rumeng/JavaShiYan3/students4189.dat
+*.log
+hs_err_pid*
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+application-local.*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Preserved metadata from the former standalone Gitee repository
+**/.git-gitee-backup/
+
+# Local-only projects outside the published scope
+/commands-io/
+/image/
+/java-rumeng/JavaShiYan3/
+/java-rumeng/JavaShiYan4189/
